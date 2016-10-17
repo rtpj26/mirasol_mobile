@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainMenu"
+    android:orientation="vertical"
+    android:background="#bf1e27"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingBottom="5dp">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:height="100dp"
+            android:textColor="#fff"
+            android:text="CALL"
+            android:background="#c11e27"
+            android:id="@+id/buttonCall"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:background="#fff">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:height="100dp"
+            android:textColor="#fff"
+            android:background="#c11e27"
+            android:text="RESCUE"
+            android:id="@+id/buttonRescue"
+            android:layout_below="@+id/buttonCall"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:textColor="#fff"
+        android:background="#c11e27"
+        android:text="MY ACCOUNT"
+        android:id="@+id/buttonAccount"
+        android:layout_below="@+id/buttonRescue"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</LinearLayout>

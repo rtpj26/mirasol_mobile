@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mirasol Tire Supply v3</string>
+    <string name="title_activity_sign_in__reg">SignIn_Reg</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_my_account">MyAccount</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_rescue">Rescue</string>
+    <string name="title_activity_transaction_activity">Transaction_activity</string>
+    <string name="back_to_main_menu">BACK TO MAIN MENU</string>
+</resources>
